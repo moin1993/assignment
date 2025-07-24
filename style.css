@@ -1,6 +1,5 @@
 .header-1 {
   max-width: 1140px;
-  background-color: aquamarine;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -20,7 +19,6 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  background-color: aqua;
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -41,7 +39,6 @@
   text-align: center;
   max-width: 1140px;
   margin: 0 auto;
-  background-color: bisque;
 }
 .plants h1 {
   font-weight: 1140px;
@@ -55,7 +52,6 @@
 .card {
   max-width: 1140px;
   margin: 0 auto;
-  background-color: #e2baa3;
 }
 .card-1 {
   display: grid;
@@ -223,7 +219,6 @@ ul li {
 }
 .footer {
   max-width: 1200px;
-  background-color: #e95a08;
   display: flex;
   justify-content: space-around;
   margin: 60px auto;
