@@ -191,10 +191,27 @@ ul li {
 .banner-2-des {
   justify-content: center;
   text-align: center;
-  padding-top: 250px;
+  padding-top: 100px;
+}
+.banner-2-des h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 3.8rem;
 }
 .banner-3 input {
   border: none;
+  width: 540px;
+  padding: 17px;
+  font-size: 0.95rem;
+  font-weight: 79px;
+}
+.banner-3 button {
+  background-color: #e95a08;
+  color: aliceblue;
+  border: none;
+  width: 186px;
+  font-size: 0.95rem;
+  font-weight: 79px;
 }
 .banner-3 {
   display: flex;
