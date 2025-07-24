@@ -62,9 +62,13 @@
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
   row-gap: 20px;
+  column-gap: 10px;
 }
+/* .card-des {
+  border: 2px solid red;
+} */
 .card-1 button {
-  width: 95%;
+  width: 100%;
   padding: 19px 20px;
   font-weight: 110px;
   font-size: 0.85rem;
@@ -224,8 +228,12 @@ ul li {
   justify-content: space-around;
   margin: 60px auto;
 }
-ul {
-  /* list-style-type: none; */
+.footer p {
+  color: #8987a1;
+}
+#footer-ul {
+  list-style-type: none;
+  color: #8987a1;
 }
 
 .icon img {
@@ -234,14 +242,13 @@ ul {
 .icon {
   display: flex;
   gap: 12px;
-  margin-top: -170px;
-
+  margin-top: 15px;
   align-items: center;
 }
 
 @media screen and (max-width: 576px) {
   .header-1 {
-    flex-direction: column;
+    flex-direction: row;
   }
   .header-list {
     display: none;
@@ -256,9 +263,11 @@ ul {
   .plants {
     flex-direction: column;
   }
+  .card-des img {
+    width: 70%;
+  }
   .card-1 {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
   }
   .deal-img {
     flex-direction: column;
@@ -303,8 +312,20 @@ ul {
   .footer {
     flex-direction: column;
   }
+  .footer-1 {
+    margin-left: 25px;
+  }
+
   .icon {
     flex-direction: row;
-    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .banner-2-des h1 {
+    font-size: 1.5rem;
+    margin-top: 70px;
+  }
+  .banner-3 {
+    padding: 0 24px;
   }
 }
