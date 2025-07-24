@@ -30,8 +30,9 @@
 }
 
 .banner p {
-  color: #000000;
+  color: #8987a1;
   font-weight: 570px;
+  font-size: 1.5rem;
 }
 .fresh {
   color: #e95a08;
@@ -41,6 +42,10 @@
   max-width: 1140px;
   margin: 0 auto;
   background-color: bisque;
+}
+.plants h1 {
+  font-weight: 1140px;
+  font-size: 3rem;
 }
 .card {
   max-width: 1140px;
