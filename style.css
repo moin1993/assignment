@@ -128,14 +128,37 @@ ul li {
   margin: 0 auto;
   text-align: center;
 }
+.deal h1 {
+  font-weight: 1440px;
+  font-size: 4rem;
+}
+.deal p {
+  color: #8987a1;
+  font-weight: 300px;
+  font-size: 2rem;
+  margin-top: -20px;
+}
 .zabo {
   position: relative;
 }
+
 .zabo-des {
   position: absolute;
   margin-top: -280px;
-  margin-left: 250px;
+  margin-left: 200px;
   text-align: center;
+}
+.zabo-des h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: white;
+}
+.zabo-des h5 {
+  font-weight: 270px;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: aliceblue;
+  margin-top: -30px;
 }
 .bloom {
   position: relative;
@@ -147,8 +170,17 @@ ul li {
   margin-left: 80px;
   text-align: center;
 }
+.bloom-des h2 {
+  color: aliceblue;
+}
+.bloom-des h5 {
+  text-decoration: underline;
+  color: aliceblue;
+  font-size: 1rem;
+  margin-top: -15px;
+}
 #off-60 {
-  border-left: 2px solid white;
+  border-left: 3px solid white;
 }
 
 .banner-2 {
@@ -220,6 +252,9 @@ ul {
   #badge {
     display: none;
   }
+  #store {
+    width: 100%;
+  }
   .des {
     margin-top: 50px;
   }
@@ -232,9 +267,20 @@ ul {
   }
   .zabo-des {
     position: absolute;
-    margin-top: -130px;
-    margin-left: 50px;
+    margin-top: -140px;
+    margin-left: 40px;
     text-align: center;
+  }
+  .zabo-des h2 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: white;
+  }
+  .zabo-des h5 {
+    font-weight: 270px;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    color: aliceblue;
   }
 
   .footer {
