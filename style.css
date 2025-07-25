@@ -100,7 +100,7 @@
 }
 ul li {
   padding-bottom: 20px;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 .des {
   padding-left: 10px;
@@ -186,7 +186,7 @@ ul li {
 .banner-2 {
   background-image: url(B12A02-Responsive-Flowers-main/assets/news-letter-bg.png);
   height: 533px;
-  margin-top: 340px;
+  margin-top: 350px;
 }
 .banner-2-des {
   justify-content: center;
@@ -282,6 +282,9 @@ ul li {
   .deal-des {
     flex-direction: column;
   }
+  .bloom img {
+    width: 100%;
+  }
   .zabo img {
     height: 100%;
     width: 100%;
@@ -302,6 +305,9 @@ ul li {
     font-size: 1.3rem;
     text-decoration: underline;
     color: aliceblue;
+  }
+  .banner-2 {
+    margin-top: 560px;
   }
 
   .footer {
